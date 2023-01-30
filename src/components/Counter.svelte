@@ -66,7 +66,6 @@
 	items-center mb-4 py-2"
   bind:this={counterRef}
 >
-  <h4>{index}</h4>
   <input value={name} on:input={onChangeList} class="text-gray-600 mx-4 px-1 w-32" />
   <span class="text-lg font-bold px-4">{count}</span>
   <div class="ml-auto flex">
