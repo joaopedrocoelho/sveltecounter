@@ -10,7 +10,7 @@
   });
 
   nameList.subscribe((value) => {
-    currentNameList = value;
+    currentNameList = value.filter(Boolean);
   });
 
   const addCounter = () => {
